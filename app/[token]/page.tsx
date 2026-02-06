@@ -3,7 +3,7 @@
 import { useRouter, useParams } from "next/navigation";
 import { useEffect } from "react";
 
-const IS_MOCK = false;
+const IS_MOCK = true;
 
 /* ===================== TYPES ===================== */
 
