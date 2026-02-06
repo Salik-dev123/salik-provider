@@ -32,7 +32,7 @@ export default function InsurerSelectionPage() {
     "https://salik-testing.aurainsure.tech/h8lepHc";
 
   const salamaRedirectUrl =
-    process.env.NEXT_PUBLIC_SALAMA_REDIRECT_URL || "";
+   "https://salamauitest.vercel.app/salama.ae/quote-generated/abcv12345";
 
   /* ===================== MOCK ===================== */
 
