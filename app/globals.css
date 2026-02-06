@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* =====================================
+   Theme variables (keep for future use)
+   ===================================== */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dark mode variables (future-ready) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* =====================================
+   Base styles (DO NOT override backgrounds)
+   ===================================== */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
