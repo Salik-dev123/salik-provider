@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 
-const IS_MOCK = true;
+const IS_MOCK = true; 
  
 /* ===================== TYPES ===================== */
 
